@@ -104,3 +104,55 @@ footer {
     text-align: center;
     padding: 80px;
 }
+
+/*Responsivo*/
+@media (max-width: 1024px) {
+    .card {
+        width: 45%;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .products-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+    
+    .product-image {
+        height: 500px;
+    }
+
+    .btn {
+        line-height: 60px;
+        font-size: 2rem;
+    }
+
+    h3 {
+        margin-bottom: 10px;
+        color: #3db36b;
+        font-size: 3rem;
+    }
+    
+    .card p {
+        margin-bottom: 10px;
+        font-size: 2rem;
+    }
+
+   
+}
+
+@media (max-width: 425px) {
+    .card {
+        padding: 5px;
+    }
+
+    .container {
+        padding: 5px;
+    }
+}
